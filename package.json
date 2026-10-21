@@ -1,0 +1,17 @@
+{
+  "name": "class-checkin",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "班级学习打卡：每天一张照片，一起坚持下去",
+  "scripts": {
+    "dev": "node dev/server.mjs",
+    "build": "node scripts/build.mjs"
+  },
+  "dependencies": {
+    "@edgeone/pages-blob": "^0.0.18"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
